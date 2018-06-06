@@ -1,4 +1,5 @@
 [
     { "caption": "-", "id": "file" },
-    { "command": "copy_relative_path", "caption":"Copy Relative Path"}
+    { "command": "copy_relative_path", "caption":"Copy Relative Path"},
+    { "command": "copy_file_name_only", "caption":"Copy File Name"}
 ]

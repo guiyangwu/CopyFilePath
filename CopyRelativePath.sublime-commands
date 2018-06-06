@@ -1,3 +1,4 @@
 [
-    { "caption": "Copy Relative Path: Copy", "command": "copy_relative_path" }
+    { "caption": "Copy Relative Path: Copy", "command": "copy_relative_path" },
+    { "caption": "Copy File Name: Copy", "command": "copy_file_name_only" }
 ]

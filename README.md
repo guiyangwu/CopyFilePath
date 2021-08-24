@@ -1,7 +1,9 @@
-# Copy Relative Path
-Adds a "Copy Relative Path" command to the Sublime right-click context menu,
-which copies the file path of the currently opened file relative
-to the folder you have open with the greatest path match.
+# Copy File Path
+Adds a "Copy Relative Path", "Copy Git Path" and "Copy File Name Only" commands to 
+the Sublime right-click context menu, which copies the file path of the currently
+opened file relative to the folder you have open with the greatest path match.
 
 ## Adding a Hotkey
-     {"keys": ["super+i"], "command": "copy_relative_path"},
+     {"keys": ["ctrl+shift+r"], "command": "copy_relative_path"},
+     {"keys": ["ctrl+shift+c"], "command": "copy_git_path"},
+     {"keys": ["ctrl+shift+f"], "command": "copy_file_name_only"},

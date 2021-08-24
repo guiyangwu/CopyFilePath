@@ -1,5 +1,6 @@
 import sublime, sublime_plugin
 from os.path import relpath
+import os
 
 class CopyRelativePathCommand(sublime_plugin.TextCommand):
     def run(self, edit):

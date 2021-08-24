@@ -3,6 +3,7 @@ Add "**Copy Relative Path**", "**Copy File Name Only**", and "**Copy Git Path**"
 - **Copy Relative Path**: copy the file path of the currently opened file relative to the folder you have open with the greatest path match. Example: "myrepo/src/XXX.c"
 - **Copy File Name Only**: copy the file name only (path is excluded). Example: "XXX.c"
 - **Copy Git Path**: copy the relative git path (git repo name is excluded) to the git repo which contains the file. If no git repo, abstract file path will be copied. Example: "src/XX.c"
+
 Note: the example full path is "/home/thomas/code/myrepo/src/XXX.c" (or Windows like path "D:\home\thomas\code\myrepo\src\XXX.c") and open folder by Sublime Text from "/home/thomas/code", myrepo is git repo name. Copy Git Path alwasy return Linux like path with '/' as seperator.
 
 # Install to Sublime Text as plugin
